@@ -33,7 +33,7 @@ public class Operador extends User{
 
 
     public Operador(CadastroOperador cadastroOperador){
-        super(cadastroOperador.login(), cadastroOperador.senha());
+        // super(cadastroOperador.login(), cadastroOperador.senha());
         this.nome = cadastroOperador.nome();
         this.dataNascimento = cadastroOperador.dataNascimento();
         this.cpf = cadastroOperador.cpf();
